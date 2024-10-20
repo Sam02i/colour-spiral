@@ -14,22 +14,22 @@ for i in range(300):
 turtle.done()
 
 
-# import turtle
-# t = turtle.Turtle()
-# yn = turtle.Screen()
-# yn.title(" color spiraling ")
-# turtle.bgcolor("black")
-# yn.setup(width=800,height=600)
-# #*size of your game(when it opens)
-# t.speed(0)
-# colors=["blue","purple"]
-# for i in range(400):
-# #* how much screen will be covered by the lines
-#     t.pencolor(colors[i%2])
-#     #* distance between each color
-#     t.forward(i)
-#     #* speed og the spiral
-#     t.right(35)
-# #*angle of the lines
-# turtle.done()
+import turtle
+ t = turtle.Turtle()
+ yn = turtle.Screen()
+ yn.title(" color spiraling ")
+ turtle.bgcolor("black")
+ yn.setup(width=800,height=600)
+ #*size of your game(when it opens)
+ t.speed(0)
+ colors=["blue","purple"]
+ for i in range(400):
+ #* how much screen will be covered by the lines
+     t.pencolor(colors[i%2])
+     #* distance between each color
+     t.forward(i)
+     #* speed og the spiral
+     t.right(35)
+ #*angle of the lines
+ turtle.done()
 
