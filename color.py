@@ -1,17 +1,17 @@
 
-import turtle
-t = turtle.Turtle()
-yn = turtle.Screen()
-yn.title(" color spiraling ")
-turtle.bgcolor("black")
-yn.setup(width=800,height=600)
-t.speed(0)
-colors=["red","yellow","blue","green","pink","orange"]
-for i in range(300):
-    t.pencolor(colors[i%6])
-    t.forward(i*2)
-    t.right(61)
-turtle.done()
+#import turtle
+#t = turtle.Turtle()
+#yn = turtle.Screen()
+#yn.title(" color spiraling ")
+#turtle.bgcolor("black")
+#yn.setup(width=800,height=600)
+#t.speed(0)
+#colors=["red","yellow","blue","green","pink","orange"]
+#for i in range(300):
+#    t.pencolor(colors[i%6])
+#    t.forward(i*2)
+#    t.right(61)
+#turtle.done()
 
 
 import turtle
